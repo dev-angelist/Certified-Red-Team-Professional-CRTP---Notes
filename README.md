@@ -53,7 +53,6 @@ The Attacking and Defending Active Directory Lab enables you to:
 * Learn and understand concepts of well-known Windows and Active Directory attacks.
 * Learn to use Windows as an attack platform and using trusted features of the OS like .NET, PowerShell and others for attacks.
 * Bypassing defenses like Windows Defender, Microsoft Defender for Endpoint (MDE) and Microsoft Defender for Identity (MDI).
-*
 
 ## Course duration & Topics ⏳📚 <a href="#course-duration-and-topics" id="course-duration-and-topics"></a>
 

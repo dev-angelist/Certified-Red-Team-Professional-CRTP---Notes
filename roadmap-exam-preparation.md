@@ -23,8 +23,24 @@ Here below the **path** I used and which I would recommend to reach a level nece
 * Windows Privesc Arena 🏠 [THM Room](https://tryhackme.com/room/windowsprivescarena)
 * Windows Privesc 🏠 [THM Room](https://tryhackme.com/room/windows10privesc)
 * Bypass UAC 🏠 [THM Room](https://tryhackme.com/room/bypassinguac)
+* Post-Exploitation Basics 🏠 [THM Room](https://tryhackme.com/r/room/postexploit)
+* Active Directory Basics 🏠 [THM Room](https://tryhackme.com/r/room/winadbasics)
+* Enumerating Active Directory 🏠 [THM Room](https://tryhackme.com/r/room/adenumeration)
+* VulnNet: Active 🏠 [THM Room](https://tryhackme.com/r/room/vulnnetactive)
+* Active Directory Hardening 🏠 [THM Room](https://tryhackme.com/r/room/activedirectoryhardening)
+* Compromising Active Directory🏠 [THM Room](https://tryhackme.com/module/hacking-active-directory)
 * Blue 🚩 [THM CTF](https://tryhackme.com/room/blue) 🟢 - [My Writeup](https://app.gitbook.com/s/rRWtuMw6xkkeDjZfkcWC/thm/eternal-blue)
 * Active 🚩 HTB CTF 🟢 - My Writeup
+* Return 🚩 HTB CTF 🟢 - My Writeup
+* Sauna 🚩 HTB CTF 🟢 - My Writeup
+* Forest 🚩 HTB CTF 🟢 - My Writeup
+* Cascade 🚩 HTB CTF 🟠 - My Writeup
+* Intelligence 🚩 HTB CTF 🟠 - My Writeup
+* Monteverde 🚩 HTB CTF 🟠 - My Writeup
+* Resolute 🚩 HTB CTF 🟠 - My Writeup
+* Blackfield 🚩 HTB CTF 🔴 - My Writeup
+* Mantis 🚩 HTB CTF 🔴 - My Writeup
+* Search 🚩 HTB CTF 🔴 - My Writeup
 
 ## Learning Course Topics
 
@@ -115,7 +131,14 @@ Here below the **path** I used and which I would recommend to reach a level nece
 
 ### Other Resources
 
+* [Windows Privilege Escalation - Video EN](https://www.youtube.com/watch?v=n382EGuJP8Y\&list=PLJnLaWkc9xRh8hmNFWyzWMFgAHo8Lgr93)
+* [OSCP Guide 10/12 – Active Directory - Video EN](https://www.youtube.com/watch?v=26M3POQ\_51A\&list=PLJnLaWkc9xRgOyupMhNiVFfgvxseWDH5x\&index=10)
+* [The Cyber Mentor (TCM) - Hacking Active Directory for Beginners - Video EN](https://www.youtube.com/watch?v=VXxH4n684HE)
+* [The Cyber Mentor (TCM) - Windows Privilege Escalation for Beginners - Video EN](https://www.youtube.com/watch?v=uTcrbNBcoxQ)
+* [Cisco and Pentester Academy Attacking Active Directory Class with Nikhil Mittal - Video EN](https://www.youtube.com/watch?v=1fiZbYhEkYA)
+* [Active Directory - John Hammond Series - Video EN](https://www.youtube.com/watch?v=pKtDQtsubio\&list=PL1H1sBF1VAKVoU6Q2u7BBGPsnkn-rajlp)
 
+{% embed url="https://viperone.gitbook.io/pentest-everything/everything/everything-active-directory" %}
 
 ## Training and Labs
 
