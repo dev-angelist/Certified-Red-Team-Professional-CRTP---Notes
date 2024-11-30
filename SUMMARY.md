@@ -1,9 +1,12 @@
 # Table of contents
 
 * [📝 Certified Red Team Professional (CRTP) - Notes](README.md)
-  * [1️⃣ ​1 -](readme/system-security/README.md)
+  * [0️⃣ 0 - Course Summary](readme/system-security/README.md)
     * [1.1](readme/system-security/1.1.md)
     * [1.2](readme/system-security/1.2.md)
+  * [1️⃣ Copy of ​1 - Active Directory and Kerberos](readme/system-security-1/README.md)
+    * [1.1](readme/system-security-1/1.1.md)
+    * [1.2](readme/system-security-1/1.2.md)
   * [2️⃣ 2 -](readme/network-security/README.md)
     * [2.1](readme/network-security/2.1.md)
   * [📄 Report](readme/metasploit-and-ruby-1/README.md)

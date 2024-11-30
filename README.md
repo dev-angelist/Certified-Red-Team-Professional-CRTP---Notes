@@ -4,11 +4,7 @@ description: AS - Certified Red Team Professional (CRTP) - Notes
 
 # 📝 Certified Red Team Professional (CRTP) - Notes
 
-<div align="left">
-
-<figure><img src=".gitbook/assets/image.png" alt="" width="207"><figcaption><p><a href="https://www.alteredsecurity.com/post/certified-red-team-professional-crtp">https://www.alteredsecurity.com/post/certified-red-team-professional-crtp</a></p></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src=".gitbook/assets/image.png" alt="" width="207"><figcaption><p><a href="https://www.alteredsecurity.com/post/certified-red-team-professional-crtp">https://www.alteredsecurity.com/post/certified-red-team-professional-crtp</a></p></figcaption></figure></div>
 
 {% embed url="https://www.alteredsecurity.com/post/certified-red-team-professional-crtp" %}
 
@@ -150,6 +146,12 @@ The Attacking and Defending Active Directory Lab enables you to:
 The best way to take good practice is using this lab (1st lab required more resources than 2nd)
 
 {% embed url="https://github.com/Orange-Cyberdefense/GOAD/tree/main" %}
+
+### Exam Voucher <a href="#ejpt-exam" id="ejpt-exam"></a>
+
+During Black Friday (November) and Summer certification vendor give sale on these certifications, you can follow latest prices at this link to evaluate or schedule time of buying.
+
+{% embed url="https://github.com/dev-angelist/InfoSec-Black-Friday" %}
 
 ### Altered Security Resources <a href="#ejpt-exam" id="ejpt-exam"></a>
 

@@ -1,6 +1,6 @@
-# 0️⃣ 0 - Course Summary
+# 1️⃣ Copy of ​1 - Active Directory and Kerberos
 
-## Topics
+### Topics
 
 > 1. Introduction to Active Directory and Kerberos
 > 2. Introduction to PowerShell
@@ -19,19 +19,7 @@
 > 15. Defending an Active Directory Environment
 > 16. Bypassing Defenses
 
-## Scope of Lab
 
-Subnet range (only on course lab) -> 172.16.1.0/24 - 172.16.17.0/24
-
-Everything else in not in scope.
-
-## PowerShell
-
-Powershell provides access to almost everything in a Windows platform and Active Directory Environment.
-
-It's based on .NET framework and is integrated with Windows OS.
-
-We'll use it to interpretate attacker methodologies and running powerful scripts.
 
 {% hint style="danger" %}
 #### ❗ Disclaimer&#x20;
