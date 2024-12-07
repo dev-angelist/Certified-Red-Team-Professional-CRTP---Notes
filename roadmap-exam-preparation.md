@@ -1,10 +1,8 @@
----
-description: ToBeUpdated
----
-
 # 🛣️ RoadMap / Exam Preparation
 
-[![](https://github.com/sidneysimas/eCPPTv2-PTP-Notes/raw/main/.gitbook/assets/image%20\(1\).png)](https://github.com/sidneysimas/eCPPTv2-PTP-Notes/blob/main/.gitbook/assets/image%20\(1\).png)
+## Main Concepts
+
+<figure><img src=".gitbook/assets/image (128).png" alt=""><figcaption></figcaption></figure>
 
 Here below the **path** I used and which I would recommend to reach a level necessary to pass the exam. 👇
 
@@ -24,7 +22,7 @@ Here below the **path** I used and which I would recommend to reach a level nece
 * Windows Privesc 🏠 [THM Room](https://tryhackme.com/room/windows10privesc)
 * Bypass UAC 🏠 [THM Room](https://tryhackme.com/room/bypassinguac)
 * Post-Exploitation Basics 🏠 [THM Room](https://tryhackme.com/r/room/postexploit)
-* Active Directory Basics 🏠 [THM Room](https://tryhackme.com/r/room/winadbasics)
+* Active Directory Basics 🏠 [THM Room](https://tryhackme.com/r/room/winadbasics) - [Walkthrough ITA](https://www.youtube.com/watch?v=WEXpcDg25QM\&feature=youtu.be) 🇮🇹
 * Enumerating Active Directory 🏠 [THM Room](https://tryhackme.com/r/room/adenumeration)
 * VulnNet: Active 🏠 [THM Room](https://tryhackme.com/r/room/vulnnetactive)
 * Active Directory Hardening 🏠 [THM Room](https://tryhackme.com/r/room/activedirectoryhardening)
@@ -129,14 +127,15 @@ Here below the **path** I used and which I would recommend to reach a level nece
 * Deploy computer objects and Group objects to deceive an adversary.
 * Learn how adversaries can identify decoy objects and how defenders can avoid the detection.
 
-### Other Resources
+### Video Resources
 
-* [Windows Privilege Escalation - Video EN](https://www.youtube.com/watch?v=n382EGuJP8Y\&list=PLJnLaWkc9xRh8hmNFWyzWMFgAHo8Lgr93)
-* [OSCP Guide 10/12 – Active Directory - Video EN](https://www.youtube.com/watch?v=26M3POQ\_51A\&list=PLJnLaWkc9xRgOyupMhNiVFfgvxseWDH5x\&index=10)
-* [The Cyber Mentor (TCM) - Hacking Active Directory for Beginners - Video EN](https://www.youtube.com/watch?v=VXxH4n684HE)
-* [The Cyber Mentor (TCM) - Windows Privilege Escalation for Beginners - Video EN](https://www.youtube.com/watch?v=uTcrbNBcoxQ)
-* [Cisco and Pentester Academy Attacking Active Directory Class with Nikhil Mittal - Video EN](https://www.youtube.com/watch?v=1fiZbYhEkYA)
-* [Active Directory - John Hammond Series - Video EN](https://www.youtube.com/watch?v=pKtDQtsubio\&list=PL1H1sBF1VAKVoU6Q2u7BBGPsnkn-rajlp)
+* [Windows Privilege Escalation - Video EN](https://www.youtube.com/watch?v=n382EGuJP8Y\&list=PLJnLaWkc9xRh8hmNFWyzWMFgAHo8Lgr93) 🇬🇧 🎦
+* [OSCP Guide 10/12 – Active Directory - Video EN](https://www.youtube.com/watch?v=26M3POQ_51A\&list=PLJnLaWkc9xRgOyupMhNiVFfgvxseWDH5x\&index=10) 🇬🇧 🎦
+* [The Cyber Mentor (TCM) - Hacking Active Directory for Beginners - Video EN](https://www.youtube.com/watch?v=VXxH4n684HE) 🇬🇧 🎦
+* [The Cyber Mentor (TCM) - Windows Privilege Escalation for Beginners - Video EN](https://www.youtube.com/watch?v=uTcrbNBcoxQ) 🇬🇧 🎦
+* [Cisco and Pentester Academy Attacking Active Directory Class with Nikhil Mittal - Video EN](https://www.youtube.com/watch?v=1fiZbYhEkYA) 🇬🇧 🎦
+* [Active Directory - John Hammond Series - Video EN](https://www.youtube.com/watch?v=pKtDQtsubio\&list=PL1H1sBF1VAKVoU6Q2u7BBGPsnkn-rajlp) 🇬🇧 🎦
+* [Active Directory THM Room Walkthrough - Esadecimale - Video ITA](https://youtu.be/WEXpcDg25QM?si=XFA4hFbvwxyLSae7) 🇮🇹 🎦
 
 {% embed url="https://viperone.gitbook.io/pentest-everything/everything/everything-active-directory" %}
 

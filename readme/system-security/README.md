@@ -1,9 +1,9 @@
-# 0️⃣ 0 - Course Summary
+# ℹ️ 0 - Course Summary
 
 ## Topics
 
-> 1. Introduction to Active Directory and Kerberos
-> 2. Introduction to PowerShell
+> 1. Active Directory (AD)
+> 2. PowerShell
 > 3. Domain Enumeration
 > 4. Trust and Privileges Mapping
 > 5. Local Privilege Escalation
