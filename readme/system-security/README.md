@@ -33,6 +33,10 @@ It's based on .NET framework and is integrated with Windows OS.
 
 We'll use it to interpretate attacker methodologies and running powerful scripts.
 
+## Resources
+
+{% embed url="https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/get-started/virtual-dc/active-directory-domain-services-overview" %}
+
 {% hint style="danger" %}
 #### ❗ Disclaimer&#x20;
 
