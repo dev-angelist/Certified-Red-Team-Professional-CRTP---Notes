@@ -10,8 +10,19 @@
 [https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/get-started/virtual-dc/active-directory-domain-services-overview](https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/get-started/virtual-dc/active-directory-domain-services-overview)
 {% endembed %}
 
+[Building a Vulnerable Active Directory Lab: A Practical Approach](https://dev-angelist.gitbook.io/building-a-vulnerable-active-directory-lab)
+
+
+
+
+
 {% hint style="danger" %}
 #### ❗ Disclaimer&#x20;
 
 **Never use tools and techniques on real IP addresses, hosts or networks without proper     authorization!**❗
 {% endhint %}
+
+
+
+
+

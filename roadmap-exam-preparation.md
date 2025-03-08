@@ -145,6 +145,8 @@ The best way to take good practice is using this lab (1st lab required more reso
 
 {% embed url="https://github.com/Orange-Cyberdefense/GOAD/tree/main" %}
 
+or more better create an own homemade lab, following this [guide](https://dev-angelist.gitbook.io/building-a-vulnerable-active-directory-lab): [https://dev-angelist.gitbook.io/building-a-vulnerable-active-directory-lab](https://dev-angelist.gitbook.io/building-a-vulnerable-active-directory-lab)
+
 ### Altered Security Resources <a href="#ejpt-exam" id="ejpt-exam"></a>
 
 {% embed url="https://www.alteredsecurity.com/adlab" %}

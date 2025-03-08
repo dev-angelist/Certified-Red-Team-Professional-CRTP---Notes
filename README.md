@@ -4,7 +4,7 @@ description: AS - Certified Red Team Professional (CRTP) - Notes
 
 # 📝 Certified Red Team Professional (CRTP) - Notes
 
-<div align="left"><figure><img src=".gitbook/assets/image (5).png" alt="" width="207"><figcaption><p><a href="https://www.alteredsecurity.com/post/certified-red-team-professional-crtp">https://www.alteredsecurity.com/post/certified-red-team-professional-crtp</a></p></figcaption></figure></div>
+<div align="left"><figure><img src=".gitbook/assets/image (5) (1).png" alt="" width="207"><figcaption><p><a href="https://www.alteredsecurity.com/post/certified-red-team-professional-crtp">https://www.alteredsecurity.com/post/certified-red-team-professional-crtp</a></p></figcaption></figure></div>
 
 {% embed url="https://www.alteredsecurity.com/post/certified-red-team-professional-crtp" %}
 
@@ -139,13 +139,15 @@ The Attacking and Defending Active Directory Lab enables you to:
 
 🛣️ [**RoadMap / Exam Preparation**](roadmap-exam-preparation.md) 🧑🏻‍🏫
 
-<figure><img src=".gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Training and Labs
 
 The best way to take good practice is using this lab (1st lab required more resources than 2nd)
 
 {% embed url="https://github.com/Orange-Cyberdefense/GOAD/tree/main" %}
+
+or more better create an own homemade lab, following this [guide](https://dev-angelist.gitbook.io/building-a-vulnerable-active-directory-lab): [https://dev-angelist.gitbook.io/building-a-vulnerable-active-directory-lab](https://dev-angelist.gitbook.io/building-a-vulnerable-active-directory-lab)
 
 ### Exam Voucher <a href="#ejpt-exam" id="ejpt-exam"></a>
 
