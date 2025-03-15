@@ -1,9 +1,9 @@
-# 4️⃣ 4 - Trust and Privileges Mapping
+# 9️⃣ 9 - Kerberos Attack and Defense (Golden, Silver tickets and more)
 
 ### Topics
 
-> 1. Access Control (ACL/ACE)
-> 2. Group Policy
+> 1. Kerberos Intro
+> 2. bb
 > 3. cc
 > 4. dd
 > 5. ee

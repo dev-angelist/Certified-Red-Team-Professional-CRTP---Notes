@@ -1,12 +1,4 @@
-# 5️⃣ 5 - Local Privilege Escalation
-
-### Topics
-
-> 1. Privilege Escalation
-> 2. Tools
-> 3. cc
-> 4. dd
-> 5. ee
+# 5.1 - Privilege Escalation
 
 ## Privilege Escalation
 
@@ -20,6 +12,7 @@ In an AD environment we can perform privilege escalation for this scope:
 There're various ways to escalate privileges on Windows Box:
 
 * Missing patches
+* Feature Abuse
 * Automated deployment and AutoLogon psw in cleartext
 * AlwaysInstallElevated (Any user can run MSI as SYSTEM)
 * Misconfigured Services
@@ -38,10 +31,4 @@ While, more common tools to help us into process are:
 * [**Privesc**](https://github.com/itm4n/PrivescCheck): [https://github.com/itm4n/PrivescCheck](https://github.com/itm4n/PrivescCheck)
 * [**WinPeas**](https://github.com/peass-ng/PEASS-ng/tree/master/winPEAS): [https://github.com/peass-ng/PEASS-ng/tree/master/winPEAS](https://github.com/peass-ng/PEASS-ng/tree/master/winPEAS)
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
-
-{% hint style="danger" %}
-#### ❗ Disclaimer&#x20;
-
-**Never use tools and techniques on real IP addresses, hosts or networks without proper     authorization!**❗
-{% endhint %}
+<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>

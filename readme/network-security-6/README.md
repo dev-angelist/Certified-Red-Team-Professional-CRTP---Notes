@@ -1,9 +1,9 @@
-# 4️⃣ 4 - Trust and Privileges Mapping
+# 6️⃣ 8 - Persistence
 
 ### Topics
 
-> 1. Access Control (ACL/ACE)
-> 2. Group Policy
+> 1. aa
+> 2. bb
 > 3. cc
 > 4. dd
 > 5. ee

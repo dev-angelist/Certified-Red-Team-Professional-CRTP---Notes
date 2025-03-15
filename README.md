@@ -139,7 +139,7 @@ The Attacking and Defending Active Directory Lab enables you to:
 
 🛣️ [**RoadMap / Exam Preparation**](roadmap-exam-preparation.md) 🧑🏻‍🏫
 
-<figure><img src=".gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Training and Labs
 

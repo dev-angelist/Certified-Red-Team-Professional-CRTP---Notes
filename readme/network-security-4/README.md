@@ -1,8 +1,8 @@
-# 9️⃣ 9 - Kerberos Attack and Defense (Golden, Silver tickets and more)
+# 6️⃣ 6 - Lateral Movement
 
 ### Topics
 
-> 1. Kerberos Intro
+> 1. aa
 > 2. bb
 > 3. cc
 > 4. dd
