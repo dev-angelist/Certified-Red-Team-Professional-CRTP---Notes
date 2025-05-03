@@ -2,11 +2,8 @@
 
 ### Topics
 
-> 1. Privilege Escalation
-> 2. Tools
-> 3. cc
-> 4. dd
-> 5. ee
+> 1. [Privilege Escalation](network-security/)
+> 2. [Tools](2.1.md)
 
 ## Privilege Escalation
 
@@ -38,10 +35,14 @@ While, more common tools to help us into process are:
 * [**Privesc**](https://github.com/itm4n/PrivescCheck): [https://github.com/itm4n/PrivescCheck](https://github.com/itm4n/PrivescCheck)
 * [**WinPeas**](https://github.com/peass-ng/PEASS-ng/tree/master/winPEAS): [https://github.com/peass-ng/PEASS-ng/tree/master/winPEAS](https://github.com/peass-ng/PEASS-ng/tree/master/winPEAS)
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="danger" %}
 #### ❗ Disclaimer&#x20;
 
 **Never use tools and techniques on real IP addresses, hosts or networks without proper     authorization!**❗
 {% endhint %}
+
+### Labs
+
+Refers to [Learning Object 5](../lab/5-learning-object-5.md) and [Learning Object 6](../lab/6-learning-object-6.md) labs

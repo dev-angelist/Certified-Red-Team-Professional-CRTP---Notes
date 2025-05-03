@@ -141,11 +141,13 @@ Here below the **path** I used and which I would recommend to reach a level nece
 
 ## Training and Labs
 
-The best way to take good practice is using this lab (1st lab required more resources than 2nd)
+If you active the basic subscription you'll have 30 days of lab access with modules for each main topic called **Learning Objects**, [here my walkthrough](readme/lab/).
+
+While, if you want to go in depth, the best way is to practice is using **GOAD** lab environment (1st lab required more resources than 2nd)
 
 {% embed url="https://github.com/Orange-Cyberdefense/GOAD/tree/main" %}
 
-or more better create an own homemade lab, following this [guide](https://dev-angelist.gitbook.io/building-a-vulnerable-active-directory-lab): [https://dev-angelist.gitbook.io/building-a-vulnerable-active-directory-lab](https://dev-angelist.gitbook.io/building-a-vulnerable-active-directory-lab)
+or more better create an own **homemade** lab, following this [guide](https://dev-angelist.gitbook.io/building-a-vulnerable-active-directory-lab): [https://dev-angelist.gitbook.io/building-a-vulnerable-active-directory-lab](https://dev-angelist.gitbook.io/building-a-vulnerable-active-directory-lab)
 
 ### Altered Security Resources <a href="#ejpt-exam" id="ejpt-exam"></a>
 

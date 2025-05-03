@@ -2,17 +2,8 @@
 
 ### Topics
 
-> 1. aa
-> 2. bb
-> 3. cc
-> 4. dd
-> 5. ee
-
-
-
-
-
-
+> 1. [PowerShell Remoting & Tradecraft](2.1.md)
+> 2. [Crentials Extraction & Mimikatz](2.1-1.md)
 
 {% hint style="danger" %}
 #### ❗ Disclaimer&#x20;

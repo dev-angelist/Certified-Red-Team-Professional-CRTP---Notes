@@ -6,6 +6,15 @@
 
 ### **PowerView Usage** <a href="#powerview-usage" id="powerview-usage"></a>
 
+*   **Start InviShell** (using cmd)
+
+    ```bash
+    C:\AD\Tools\InviShell\RunWithRegistryNonAdmin.bat
+    ```
+*   **Start PowerView** (using powershell, if you've run InviShell powershell It's already running)
+
+    <pre class="language-powershell"><code class="lang-powershell"><strong>. C:\AD\Tools\Powerview.ps1
+    </strong></code></pre>
 *   **Get Domain Information**
 
     ```powershell
@@ -83,10 +92,9 @@
 
     Finds user accounts with Service Principal Names (SPNs), often used in Kerberos-based attacks.
 
-
-
-
+***
 
 ## Labs
 
+* [Domain Enumeration (Video Lab)](3.3.1.1-domain-enumeration-video-lab.md)
 * [Post-Exploitation Basics THM Lab](https://dev-angelist.gitbook.io/writeups-and-walkthroughs/thm/post-exploitation-basics)

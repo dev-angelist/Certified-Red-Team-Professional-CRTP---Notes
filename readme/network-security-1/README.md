@@ -42,3 +42,7 @@ Active Directory (AD) is the backbone of many enterprise IT infrastructures, man
 * **PowerShell scripts** for gathering system and domain information.
 
 **Reconnaissance Without Credentials:** Even without valid domain credentials, attackers can leverage null sessions, misconfigured services, and network discovery tools to gain valuable information. These findings often serve as a foothold to further access.
+
+## Labs
+
+Refers to [Learning Object 1](../lab/1-learning-object-1.md) and [Learning Object 3](../lab/3-learning-object-3.md) labs

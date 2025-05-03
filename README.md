@@ -4,7 +4,7 @@ description: AS - Certified Red Team Professional (CRTP) - Notes
 
 # 📝 Certified Red Team Professional (CRTP) - Notes
 
-<div align="left"><figure><img src=".gitbook/assets/image (5) (1).png" alt="" width="207"><figcaption><p><a href="https://www.alteredsecurity.com/post/certified-red-team-professional-crtp">https://www.alteredsecurity.com/post/certified-red-team-professional-crtp</a></p></figcaption></figure></div>
+<div align="left"><figure><img src=".gitbook/assets/image (5) (1) (1).png" alt="" width="207"><figcaption><p><a href="https://www.alteredsecurity.com/post/certified-red-team-professional-crtp">https://www.alteredsecurity.com/post/certified-red-team-professional-crtp</a></p></figcaption></figure></div>
 
 {% embed url="https://www.alteredsecurity.com/post/certified-red-team-professional-crtp" %}
 
@@ -139,7 +139,7 @@ The Attacking and Defending Active Directory Lab enables you to:
 
 🛣️ [**RoadMap / Exam Preparation**](roadmap-exam-preparation.md) 🧑🏻‍🏫
 
-<figure><img src=".gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Training and Labs
 

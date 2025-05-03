@@ -31,4 +31,8 @@ While, more common tools to help us into process are:
 * [**Privesc**](https://github.com/itm4n/PrivescCheck): [https://github.com/itm4n/PrivescCheck](https://github.com/itm4n/PrivescCheck)
 * [**WinPeas**](https://github.com/peass-ng/PEASS-ng/tree/master/winPEAS): [https://github.com/peass-ng/PEASS-ng/tree/master/winPEAS](https://github.com/peass-ng/PEASS-ng/tree/master/winPEAS)
 
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+
+### Labs
+
+Refers to [Learning Object 5](../../lab/5-learning-object-5.md) and [Learning Object 6](../../lab/6-learning-object-6.md) labs

