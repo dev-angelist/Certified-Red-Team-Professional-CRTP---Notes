@@ -261,7 +261,9 @@ kerbrute bruteuser -d DC.LOCAL -dc 192.168.1.1 usernames.txt passwords.txt
 *   List sessions on remote machines Users
 
     ```powershell
+    . C:\AD\Tools\Invoke-SessionHunter.ps1
     Invoke-SessionHunter -FailSafe
+    Invoke-SessionHunter -NoPortScan -RawResults | select Hostname,UserSession,Access
     ```
 
 ### **Domain Enumeration**

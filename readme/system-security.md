@@ -4,7 +4,7 @@
 
 > 1. Active Directory (AD)
 > 2. PowerShell
-> 3. Domain Enumeration
+> 3. AD Enumeration
 > 4. Trust and Privileges Mapping
 > 5. Local Privilege Escalation
 > 6. Credential Replay Attack (Over-PTH, Token Replay, etc.)

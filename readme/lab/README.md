@@ -6,13 +6,13 @@ icon: flask-vial
 
 ### Topics
 
-> 1. [Learning Object 1️](1-learning-object-1.md)
-> 2. [Learning Object 2️](2-learning-object-2.md)
-> 3. [Learning Object 3️](3-learning-object-3.md)
-> 4. [Learning Object 4️](4-learning-object-4.md)
-> 5. [Learning Object 5️](5-learning-object-5.md)
-> 6. [Learning Object 6️](6-learning-object-6.md)
-> 7. [Learning Object 7️](7-learning-object-7.md)
+> 1. [Learning Object ](1-learning-object-1.md)1️
+> 2. [Learning Object](2-learning-object-2.md) 2️
+> 3. [Learning Object](3-learning-object-3.md) 3️
+> 4. [Learning Object](4-learning-object-4.md) 4️
+> 5. [Learning Object](5-learning-object-5.md) 5️
+> 6. [Learning Object](6-learning-object-6.md) 6️
+> 7. [Learning Object](7-learning-object-7.md) 7️
 > 8. Learning Object 8️
 > 9. Learning Object 9️
 > 10. Learning Object 1️0️
@@ -47,15 +47,15 @@ The target AD environment regards a financial services called 'moneycorp', with:
 
 The Lab Environment.png
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p>The Lab Environment.png - @alteredsecurity</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>The Lab Environment.png - @alteredsecurity</p></figcaption></figure>
 
 The Lab Environment\_Attack\_Paths.png
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>The Lab Environment_Attack_Paths.png - @alteredsecurity</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>The Lab Environment_Attack_Paths.png - @alteredsecurity</p></figcaption></figure>
 
 ACL\_Mindmap.png
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>ACL_Mindmap.png - @alteredsecurity</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (39).png" alt=""><figcaption><p>ACL_Mindmap.png - @alteredsecurity</p></figcaption></figure>
 
 {% hint style="danger" %}
 #### ❗ Disclaimer&#x20;
