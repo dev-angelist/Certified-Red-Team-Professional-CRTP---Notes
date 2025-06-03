@@ -1,6 +1,6 @@
 # 4️⃣ 4 - Trust and Privileges Mapping
 
-### Topics
+## Topics
 
 > 1. [Access Control (ACL/ACE)](2.1.md)
 > 2. [Group Policy](2.1-1.md)
@@ -14,4 +14,6 @@
 
 ### Labs
 
-Refers to [Learning Object 1](../lab/1-learning-object-1.md), [Learning Object 2](../lab/2-learning-object-2.md) and [Learning Object 4](../lab/4-learning-object-4.md) labs
+* [Learning Object 1 lab](../lab/1-lo-1.md)
+* [Learning Object 2 lab](../lab/2-lo2.md)
+* [Learning Object 4 lab](../lab/4-lo-4.md)

@@ -1,4 +1,4 @@
-# 6️⃣ 6 - Lateral Movement
+# 7️⃣ 6 - Lateral Movement
 
 ### Topics
 
@@ -13,4 +13,4 @@
 
 ### Labs
 
-Refers to [Learning Object 7](../lab/7-learning-object-7.md) lab
+* [Learning Object 7 lab](../lab/7-lo-7.md)

@@ -45,4 +45,4 @@ Active Directory (AD) is the backbone of many enterprise IT infrastructures, man
 
 ## Labs
 
-Refers to [Learning Object 1](../lab/1-learning-object-1.md) and [Learning Object 3](../lab/3-learning-object-3.md) labs
+Refers to [Learning Object 1](../lab/1-lo-1.md) and [Learning Object 3](../lab/3-lo-3.md) labs

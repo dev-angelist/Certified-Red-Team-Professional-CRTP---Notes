@@ -7,21 +7,13 @@
 > 3. AD Enumeration
 > 4. Trust and Privileges Mapping
 > 5. Local Privilege Escalation
-> 6. Credential Replay Attack (Over-PTH, Token Replay, etc.)
-> 7. Domain Privilege Escalation
-> 8. Dumping System and Domain Secrets
-> 9. Kerberos Attack and Defense (Golden, Silver tickets and more)
-> 10. Abusing Cross Forest Trusts
-> 11. Delegation Issues
-> 12. Persistence Techniques
-> 13. Abusing SQL Server Trusts in an AD Environment
-> 14. Detecting Attack Techniques
-> 15. Defending an Active Directory Environment
-> 16. Bypassing Defenses
+> 6. Lateral Movement
+> 7. Persistence
+> 8. Detection and Defense
 
 ## Scope of Lab
 
-Subnet range (only on course lab) -> 172.16.1.0/24 - 172.16.17.0/24
+Subnet range (only on course lab) -> `172.16.1.0/24` - `172.16.17.0/24`
 
 Everything else in not in scope.
 

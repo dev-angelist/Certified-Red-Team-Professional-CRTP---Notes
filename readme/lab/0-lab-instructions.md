@@ -1,4 +1,5 @@
 ---
+description: Lab Instructions
 icon: wrench
 ---
 
@@ -31,4 +32,3 @@ executable remains the same, the tool is obfuscated. For example, Rubeus.exe in 
 obfuscated version of publicly available Rubeus.\
 • Note that if you get an error like 'This app can't run on your PC' for any executable (Loader.exe,\
 SafetyKatz.exe or Rubeus.exe), re-extract it from C:\AD\Tools.zip
-
